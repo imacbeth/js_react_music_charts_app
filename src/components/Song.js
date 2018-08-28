@@ -7,6 +7,7 @@ const Song = function (props) {
     <div>
     <h3>{props.position}: {props.title.label}</h3>
     <h3>{props.artist.label}</h3>
+    <img src={props.image[2].label} alt=""></img>
   </div>
   );
 }
